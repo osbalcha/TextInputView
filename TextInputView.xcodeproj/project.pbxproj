@@ -68,10 +68,8 @@
 		17FD7F0A0E4236BE004132C5 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				178C31CE0E52400500F39F56 /* Controller.h */,
-				178C31CF0E52400500F39F56 /* Controller.m */,
-				17FD7F1C0E423A64004132C5 /* FadingTextView.h */,
-				17FD7F1D0E423A64004132C5 /* FadingTextView.m */,
+				2E99345218E9A7730065FFE5 /* Controlador */,
+				2E99345318E9A78E0065FFE5 /* Vista */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -123,6 +121,24 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E99345218E9A7730065FFE5 /* Controlador */ = {
+			isa = PBXGroup;
+			children = (
+				178C31CE0E52400500F39F56 /* Controller.h */,
+				178C31CF0E52400500F39F56 /* Controller.m */,
+			);
+			name = Controlador;
+			sourceTree = "<group>";
+		};
+		2E99345318E9A78E0065FFE5 /* Vista */ = {
+			isa = PBXGroup;
+			children = (
+				17FD7F1C0E423A64004132C5 /* FadingTextView.h */,
+				17FD7F1D0E423A64004132C5 /* FadingTextView.m */,
+			);
+			name = Vista;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
